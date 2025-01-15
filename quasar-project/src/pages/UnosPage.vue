@@ -1,11 +1,12 @@
 <template>
-    <div>
+    <q-page>
       <q-banner>
-        <div>
-          Unos Page
-        </div>
+        <template v-slot:default>
+            <h6>Dobrodošli na stranicu UnosPage</h6>
+            <p>Ovdje možete unositi podatke.</p>
+        </template>
       </q-banner>
-    </div>
+    </q-page>
   </template>
   
   <script>
@@ -13,4 +14,5 @@
     name: 'UnosPage'
   }
   </script>
+  
   
